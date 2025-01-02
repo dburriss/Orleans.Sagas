@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <DefaultTargetFrameworkVersion>net8.0</DefaultTargetFrameworkVersion>
-    <OrleansVersion>7.0.0</OrleansVersion>
+    <OrleansVersion>9.0.1</OrleansVersion>
   </PropertyGroup>
 
 </Project>

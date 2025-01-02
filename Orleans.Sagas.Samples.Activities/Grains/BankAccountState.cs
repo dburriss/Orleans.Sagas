@@ -3,10 +3,11 @@ using System.Collections.Generic;
 
 namespace Orleans.Sagas.Samples.Activities.Grains
 {
+    [GenerateSerializer]
     public class BankAccountState
     {
-        public int Balance { get; set; }
-        public Dictionary<Guid, int> Transactions { get; set; }
+        [Id(0)]public int Balance { get; set; }
+        [Id(1)]public Dictionary<Guid, int> Transactions { get; set; }
 
         public BankAccountState()
         {
